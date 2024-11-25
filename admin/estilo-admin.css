@@ -1,0 +1,137 @@
+
+.contenedor-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    margin: 0;
+    background-color: #ccffcc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5%;
+    height:120px;
+}
+
+.contenedor-iconos {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+#logo {
+    width: 150px;
+    margin: 0px;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.contenedor-producto {
+    font-size: 15px;
+    background-color: #dfefdf;
+    padding: 20px;
+    margin: 30px 5%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    display: block;
+    border-spacing: 0 10px;
+}
+
+.contenedor-producto table {
+    width: 100%;
+    border-collapse: separate;
+    margin-top: 20px;
+}
+
+.contenedor-producto th, .contenedor-producto td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.contenedor-producto td {
+    vertical-align: middle;
+}
+
+.contenedor-producto tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.contenedor-producto tr:hover {
+    background-color: #d1d1d1;
+}
+
+.btn{
+    margin-left: 65px;
+
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 25px;
+    padding-left: 50px;
+}
+
+
+/* Estilos para el formulario */
+.contenedor-producto2 {
+    font-size: 16px;
+    background-color: #e5e5e5;
+    padding: 25px;
+    margin: 30px auto;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: block;
+    border: 1px solid #ddd;
+}
+
+
+.contenedor-producto2 label {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.contenedor-producto2 input[type="text"],
+.contenedor-producto2 input[type="number"],
+.contenedor-producto2 textarea,
+.contenedor-producto2 select {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
+.contenedor-producto2 textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+
+.btn-agregar {
+    background-color: #3bcf3b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    transition: background-color 0.4s ease;
+}
+
+.btn-agregar:hover {
+    background-color: #2a9d2e;
+}
+
+.contenedor-producto2 input:focus,
+.contenedor-producto2 textarea:focus,
+.contenedor-producto2 select:focus {
+    border-color: #3bcf3b;
+    outline: none;
+}
+
